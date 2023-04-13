@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1500px;
+    background-color: rgba(162, 229, 188, 0.397);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+  margin-bottom: 10px ;
+    padding: 5px;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(125, 125, 133);
+    margin: auto;
+    margin-bottom: 10px;
+}
+.div1{
+    width: 300px;
+    height: 200px;
+   
+   
+   
+     animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position:absolute; 
+    background-image: url(../image/baby1.jpg);
+    border-radius: 20px;
+    animation-fill-mode: forwards;
+    background-size: cover;
+}
+ @keyframes change{
+    0%{
+        background-color: url(../image/baby1.jpg);
+        border-radius: 20px;
+        background-size: cover;
+        left: 0;
+    }
+    50%{
+       background-image: url(../image/adult.jpg);
+      
+       background-size: cover;
+        left:40%;
+        border-radius: 50%;
+    }
+    100%{
+       background-image: url(../image/grand.jpg);
+       background-size: cover;
+        left: 75%;
+        border-radius: 20px;
+    }
+} 
+ .div2{
+
+    width: 300px;
+    height: 200px;
+    
+    
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 900x;
+    background-image: url(../image/baby1.jpg);
+    background-size: cover;
+   
+   
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 3s;
+   
+    position:absolute;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+  
+
+}
+.div3{
+    width: 300px;
+    height: 200px;
+    margin-top: 250px;
+    
+   
+    border-radius: 20px;
+   
+     animation-name: changet;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    position:absolute; 
+    background-image: url(../image/planet1.jpg);
+    animation-fill-mode: forwards;
+    background-size: cover;
+}
+@keyframes changet{
+    0%{
+        background-color: url(../image/planet1.jpg);
+        left: 0;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    50%{
+       background-image: url(../image/planet2.jpg);
+       background-size: cover;
+        left:40%;
+        border-radius: 50%;
+    }
+    100%{
+       background-image: url(../image/planet3.jpg);
+       background-size: cover;
+        left: 75%;
+        border-radius: 20px;
+    }
+} 
+.div4{
+    width: 300px;
+    height: 200px;
+    margin-top: 250px;
+    
+    
+    position: absolute;
+  
+    margin-left: 900x;
+    background-image: url(../image/planet1.jpg);
+    border-radius: 20px;
+   
+    animation-name: changet;
+    animation-duration: 4s;
+    animation-delay: 9s;
+   
+    position:absolute;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+  
+
+}
+.div5{
+    width: 200px;
+    height: 200px;
+    margin-top: 500px;
+    border-radius: 50%;
+   
+   
+   
+     animation-name: changef;
+    animation-duration: 3s;
+    animation-delay: 13s;
+    position:absolute; 
+    background-image: url(../image/sun.jpg);
+    background-size: cover;
+    animation-fill-mode: forwards;
+}
+ @keyframes changef{
+    0%{
+        background-image: url(../image/sun.jpg);
+        left: 0;
+      
+    }
+    50%{
+     background-image: url(../image/sun1.jpg);
+        left:40%;
+      background-size: cover;
+        
+    }
+    100%{
+background-image: url(../image/moon.jpeg);
+        left: 75%;
+       background-size: cover;
+    }
+} 
+.div6{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 500px;
+    
+  background-image: url(../image/sun.jpg);
+    position: absolute;
+  
+    margin-left: 900x;
+   
+   
+   
+    animation-name: changef;
+    animation-duration: 3s;
+    animation-delay: 16s;
+   
+    position:absolute;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+  
+
+}
+.div7{
+    width: 300px;
+    height: 50px;
+    margin-top: 750px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid red;
+   
+   
+   
+     animation-name: changey;
+    animation-duration: 3s;
+    animation-delay: 19s;
+    position:absolute; 
+    
+    animation-fill-mode: forwards;
+}
+ @keyframes changey{
+    0%{
+       
+        left: 0;
+    }
+    50%{
+      
+        left:40%;
+        text-shadow: 50px 50px 2px red;
+      border: 5px solid rgb(67, 16, 185);
+    }
+    100%{
+     
+        left: 75%;
+    }
+} 
+.div8{
+
+    width: 300px;
+    height: 50px;
+    margin-top: 750px;
+    
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+  
+    margin-left: 900x;
+   
+    border: 1px solid red;
+   
+    animation-name: changey;
+    animation-duration: 4s;
+    animation-delay: 22s;
+   
+    position:absolute;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+    
+  
+
+}
+
+ 
+   
